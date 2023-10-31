@@ -43,11 +43,14 @@ jobs:
           C:\windows\system32\inetsrv\appcmd.exe stop site /site.name:"HelloWorldAPI"
           xcopy /s /y .\TestDeploy\* C:\inetpub\wwwroot\HelloWorldAPI
           
-          del C:\inetpub\wwwroot\HelloWorldAPI\appsettings.json
-          del C:\inetpub\wwwroot\HelloWorldAPI\appsettings.Development.json
+          cd C:\inetpub\wwwroot\HelloWorldAPI\
 
-          ren "C:\inetpub\wwwroot\HelloWorldAPI\appsettings.USA.json" "C:\inetpub\wwwroot\HelloWorldAPI\appsettings.json"
-          ren "C:\inetpub\wwwroot\HelloWorldAPI\appsettings.USA.Development.json" "C:\inetpub\wwwroot\HelloWorldAPI\appsettings.Development.json"
+
+          del appsettings.json
+          ren appsettings.USA.json appsettings.json
+
+          del appsettings.Development.json
+          ren appsettings.USA.Development.json appsettings.Development.json
 
           C:\windows\system32\inetsrv\appcmd.exe start site /site.name:"HelloWorldAPI"
           
