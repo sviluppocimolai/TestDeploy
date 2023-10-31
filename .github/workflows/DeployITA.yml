@@ -39,7 +39,9 @@ jobs:
       - name: Deploy to IIS
         shell: cmd
         run: |
-          iisreset /stop
+          #iisreset /stop
+          C:\windows\system32\inetsrv\appcmd.exe stop site /site.name:"HelloWorldAPI"
           xcopy /s /y .\TestDeploy\* C:\inetpub\wwwroot\HelloWorldAPI
-          iisreset /start
+          C:\windows\system32\inetsrv\appcmd.exe start site /site.name:"HelloWorldAPI"
+          #iisreset /start
 
