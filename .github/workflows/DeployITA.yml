@@ -24,10 +24,13 @@ jobs:
         with:
           dotnet-version: '6.0.x'
 
+      - name: Restore dependencies
+        run: dotnet restore
+
       - name: Dotnet Build 
         shell: cmd
-        run: dotnet build --configuration Release
-
+        run: dotnet build --no-restore --configuration Release
+        
       - name: Dotnet Publish
         shell: cmd
         run: |
