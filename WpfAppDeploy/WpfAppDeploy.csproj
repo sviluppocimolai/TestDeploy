@@ -28,8 +28,8 @@
     <InstallUrl>https://raw.githubusercontent.com/sviluppocimolai/TestDeploy/main/WpfAppDeploy/published/WpfAppDeploy.application%3ftoken=%24%28date +%25s%29/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>13</ApplicationRevision>
-    <ApplicationVersion>1.0.0.13</ApplicationVersion>
+    <ApplicationRevision>14</ApplicationRevision>
+    <ApplicationVersion>1.0.0.14</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
