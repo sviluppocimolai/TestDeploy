@@ -8,6 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <Label HorizontalAlignment="Left" Width="41" Content="TEst 2"/>
-        <Label HorizontalAlignment="Left" Width="87" Content="REmote 2" Margin="75,-5,0,5"/>
+        <Label HorizontalAlignment="Left" Width="87" Content="REmote 3" Margin="75,-5,0,5"/>
     </Grid>
 </Window>
