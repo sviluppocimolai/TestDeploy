@@ -15,7 +15,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>C:\Users\tomasim\source\repos\TestDeploy\WpfAppDeploy\TestApp\</PublishUrl>
+    <PublishUrl>C:\Users\tomasim\source\repos\TestDeploy\WpfAppDeploy\published\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
