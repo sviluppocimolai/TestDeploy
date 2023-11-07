@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PublishUrlHistory>C:\Users\tomasim\source\repos\TestDeploy\WpfAppDeploy\published\|C:\Users\tomasim\source\repos\TestDeploy\WpfAppDeploy\TestApp\|C:\Publish\TestApp\|publish\</PublishUrlHistory>
-    <InstallUrlHistory>https://rawgithub.com/sviluppocimolai/TestDeploy/tree/main/WpfAppDeploy/TestApp/|https://github.com/sviluppocimolai/TestDeploy/tree/main/WpfAppDeploy/TestApp/</InstallUrlHistory>
+    <InstallUrlHistory>https://raw.githubusercontent.com/sviluppocimolai/TestDeploy/main/WpfAppDeploy/published/|https://rawgithub.com/sviluppocimolai/TestDeploy/tree/main/WpfAppDeploy/TestApp/|https://github.com/sviluppocimolai/TestDeploy/tree/main/WpfAppDeploy/TestApp/</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />
